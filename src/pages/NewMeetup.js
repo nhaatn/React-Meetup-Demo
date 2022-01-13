@@ -2,7 +2,7 @@ import { useHistory } from "react-router-dom";
 
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
 
-function NewMeetup() {
+function NewMeetupPage() {
   const history = useHistory();
 
   function addMeetupHandler(meetupData) {
@@ -28,4 +28,4 @@ function NewMeetup() {
   );
 }
 
-export default NewMeetup;
+export default NewMeetupPage;
